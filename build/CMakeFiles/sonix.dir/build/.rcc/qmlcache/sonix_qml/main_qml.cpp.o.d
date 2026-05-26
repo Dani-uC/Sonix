@@ -372,6 +372,10 @@ CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o: \
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/qspan.h \
  /usr/include/c++/13/cassert \
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q20iterator.h \
+ /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/qrandom.h \
+ /usr/include/c++/13/random /usr/include/c++/13/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+ /usr/include/c++/13/bits/random.tcc \
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/qtimezone.h \
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml/qjsengine.h \
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml/qjsmanagedvalue.h \

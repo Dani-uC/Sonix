@@ -20,7 +20,7 @@ void Core::playPause(){
 }
 
 void play_list(QList<Track*> songList, QAudioOutput *audioOutput, QMediaPlayer *player){
-    player->setSource(songList.at(1)->sendSongPath());
+    player->setSource(songList.at(5)->sendSongPath());
     player->play();
     player->setAudioOutput(audioOutput);
 }
