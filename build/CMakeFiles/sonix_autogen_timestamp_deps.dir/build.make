@@ -66,10 +66,10 @@ include CMakeFiles/sonix_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/sonix_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/moc
 CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/lib/libQt6Gui.so.6.11.1
-CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/lib/libQt6Multimedia.so.6.11.1
+CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/moc
 CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/lib/libQt6Quick.so.6.11.1
+CMakeFiles/sonix_autogen_timestamp_deps: /home/ESDi7/QtMain/6.11.1/gcc_64/lib/libQt6Multimedia.so.6.11.1
 
 sonix_autogen_timestamp_deps: CMakeFiles/sonix_autogen_timestamp_deps
 sonix_autogen_timestamp_deps: CMakeFiles/sonix_autogen_timestamp_deps.dir/build.make

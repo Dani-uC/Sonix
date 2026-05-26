@@ -4,6 +4,8 @@ set(working_dir "/home/ESDi7/Qt/Sonix")
 set(src_and_dest_list
     "/home/ESDi7/Qt/Sonix/qml/main.qml"
     "/home/ESDi7/Qt/Sonix/build/Myapp/qml/main.qml"
+    "/home/ESDi7/Qt/Sonix/qml/Icons.qml"
+    "/home/ESDi7/Qt/Sonix/build/Myapp/qml/Icons.qml"
 
 )
 set(timestamp_file "/home/ESDi7/Qt/Sonix/build/.qt/sonix_qml.txt")

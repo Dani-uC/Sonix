@@ -68,6 +68,7 @@ include CMakeFiles/sonix_qmllint_json.dir/progress.make
 
 CMakeFiles/sonix_qmllint_json: /home/ESDi7/QtMain/6.11.1/gcc_64/bin/qmllint
 CMakeFiles/sonix_qmllint_json: /home/ESDi7/Qt/Sonix/qml/main.qml
+CMakeFiles/sonix_qmllint_json: /home/ESDi7/Qt/Sonix/qml/Icons.qml
 CMakeFiles/sonix_qmllint_json: .rcc/qmllint/sonix_json.rsp
 	cd /home/ESDi7/Qt/Sonix && /home/ESDi7/QtMain/6.11.1/gcc_64/bin/qmllint @/home/ESDi7/Qt/Sonix/build/.rcc/qmllint/sonix_json.rsp
 

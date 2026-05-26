@@ -7,115 +7,115 @@
                     "entries": [
                         {
                             "codegenResult": 2,
-                            "column": 17,
+                            "column": 69,
                             "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 16,
-                            "message": "Could not find property \"height\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 15,
-                            "durationMicroseconds": 0,
-                            "functionName": "edge",
-                            "line": 17,
-                            "message": "Could not find property \"edge\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 19,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 22,
-                            "message": "cannot convert from (component in /home/ESDi7/Qt/Sonix/qml/main.qml)::parent with type QQuickItem to double"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 23,
-                            "message": "cannot convert from (component in /home/ESDi7/Qt/Sonix/qml/main.qml)::parent with type QQuickItem to double"
+                            "functionName": "onTriggered",
+                            "line": 122,
+                            "message": "Could not find signal \"triggered\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 30,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 24,
+                            "functionName": "fill",
+                            "line": 134,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 29,
-                            "message": "Could not find property \"centerIn\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 34,
-                            "message": "Could not find property \"centerIn\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 39,
-                            "message": "Could not find property \"centerIn\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 44,
-                            "message": "Could not find property \"centerIn\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 19,
+                            "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 53,
+                            "line": 137,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 22,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 52,
-                            "message": "Could not find property \"centerIn\"."
+                            "functionName": "orientation",
+                            "line": 156,
+                            "message": "Could not find property \"orientation\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 155,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 168,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 34,
+                            "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 55,
+                            "functionName": "fill",
+                            "line": 167,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 17,
+                            "column": 28,
                             "durationMicroseconds": 0,
-                            "functionName": "top",
-                            "line": 72,
-                            "message": "Could not find property \"top\"."
+                            "functionName": "width",
+                            "line": 170,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 171,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "highlighted",
+                            "line": 172,
+                            "message": "Could not find property \"highlighted\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 173,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 185,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "horizontalCenter",
-                            "line": 73,
-                            "message": "Could not find property \"horizontalCenter\"."
+                            "functionName": "wrapMode",
+                            "line": 200,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 228,
+                            "message": ""
                         }
                     ],
                     "filePath": "/home/ESDi7/Qt/Sonix/qml/main.qml"

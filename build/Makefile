@@ -435,6 +435,30 @@ build/.qt/rcc/qrc_sonix_raw_res_0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sonix.dir/build.make CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.s
 .PHONY : build/.qt/rcc/qrc_sonix_raw_res_0.cpp.s
 
+build/.rcc/qmlcache/sonix_qml/Icons_qml.o: build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sonix.dir/build.make CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o
+
+build/.rcc/qmlcache/sonix_qml/Icons_qml.i: build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sonix.dir/build.make CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i
+
+build/.rcc/qmlcache/sonix_qml/Icons_qml.s: build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sonix.dir/build.make CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s
+
 build/.rcc/qmlcache/sonix_qml/main_qml.o: build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/sonix_qml/main_qml.o
 
@@ -639,6 +663,9 @@ help:
 	@echo "... build/.qt/rcc/qrc_sonix_raw_res_0.o"
 	@echo "... build/.qt/rcc/qrc_sonix_raw_res_0.i"
 	@echo "... build/.qt/rcc/qrc_sonix_raw_res_0.s"
+	@echo "... build/.rcc/qmlcache/sonix_qml/Icons_qml.o"
+	@echo "... build/.rcc/qmlcache/sonix_qml/Icons_qml.i"
+	@echo "... build/.rcc/qmlcache/sonix_qml/Icons_qml.s"
 	@echo "... build/.rcc/qmlcache/sonix_qml/main_qml.o"
 	@echo "... build/.rcc/qmlcache/sonix_qml/main_qml.i"
 	@echo "... build/.rcc/qmlcache/sonix_qml/main_qml.s"

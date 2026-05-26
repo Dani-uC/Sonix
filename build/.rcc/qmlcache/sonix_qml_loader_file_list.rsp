@@ -5,3 +5,4 @@
 --resource
 /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc
 /Myapp/qml/main.qml
+/Myapp/qml/Icons.qml
