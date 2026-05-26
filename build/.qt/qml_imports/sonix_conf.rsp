@@ -1,0 +1,15 @@
+-rootPath
+/home/ESDi7/Qt/Sonix
+-cmake-output
+-output-file
+/home/ESDi7/Qt/Sonix/build/.qt/qml_imports/sonix_conf.cmake
+-importPath
+/home/ESDi7/Qt/Sonix/build
+-importPath
+/home/ESDi7/Qt/Sonix/build/Myapp
+-importPath
+/home/ESDi7/QtMain/6.11.1/gcc_64/qml
+-qrcFiles
+/home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc
+/home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc
+/home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc

@@ -1,0 +1,5 @@
+module Myapp
+typeinfo sonix.qmltypes
+prefer :/Myapp/
+depends QtQuick
+

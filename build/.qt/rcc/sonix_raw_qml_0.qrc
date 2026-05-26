@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Myapp/">
+    <file alias="qml/main.qml">/home/ESDi7/Qt/Sonix/qml/main.qml</file>
+  </qresource>
+</RCC>
+

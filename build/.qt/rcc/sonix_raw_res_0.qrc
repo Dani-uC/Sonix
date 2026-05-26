@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/Myapp/">
+    <file alias="resource/svg_icons/next.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/next.svg</file>
+    <file alias="resource/svg_icons/previous.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/previous.svg</file>
+    <file alias="resource/svg_icons/play.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/play.svg</file>
+    <file alias="resource/svg_icons/pause.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/pause.svg</file>
+    <file alias="resource/svg_icons/search.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/search.svg</file>
+    <file alias="resource/svg_icons/shuffle.svg">/home/ESDi7/Qt/Sonix/resource/svg_icons/shuffle.svg</file>
+  </qresource>
+</RCC>
+

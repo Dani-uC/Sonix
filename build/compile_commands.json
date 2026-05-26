@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/sonix_autogen/mocs_compilation.cpp.o -c /home/ESDi7/Qt/Sonix/build/sonix_autogen/mocs_compilation.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/sonix_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/sonix.dir/sonix_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/main.cpp.o -c /home/ESDi7/Qt/Sonix/main.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/main.cpp",
+  "output": "CMakeFiles/sonix.dir/main.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/core.cpp.o -c /home/ESDi7/Qt/Sonix/core.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/core.cpp",
+  "output": "CMakeFiles/sonix.dir/core.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/getaudio.cpp.o -c /home/ESDi7/Qt/Sonix/getaudio.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/getaudio.cpp",
+  "output": "CMakeFiles/sonix.dir/getaudio.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/sonix_qmltyperegistrations.cpp.o -c /home/ESDi7/Qt/Sonix/build/sonix_qmltyperegistrations.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/sonix_qmltyperegistrations.cpp",
+  "output": "CMakeFiles/sonix.dir/sonix_qmltyperegistrations.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.qt/rcc/qrc_qmake_Myapp.cpp.o -c /home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_qmake_Myapp.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_qmake_Myapp.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_qmake_Myapp.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/main_qml.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/main_qml.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o -c /home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o"
+},
+{
+  "directory": "/home/ESDi7/Qt/Sonix/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o -c /home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_sonix_raw_res_0.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_sonix_raw_res_0.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o"
+}
+]
