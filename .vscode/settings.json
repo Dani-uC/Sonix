@@ -2,4 +2,6 @@
     "cmake.configureOnOpen": true,
     "cmake.exportCompileCommandsFile": true,
     "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json"
+   
+
 }

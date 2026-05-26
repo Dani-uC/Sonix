@@ -6,115 +6,83 @@
                 {
                     "entries": [
                         {
-                            "codegenResult": 2,
-                            "column": 69,
+                            "codegenResult": 0,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "onTriggered",
-                            "line": 122,
-                            "message": "Could not find signal \"triggered\"."
+                            "functionName": "fill",
+                            "line": 38,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 48,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 134,
+                            "functionName": "left",
+                            "line": 44,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 137,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "orientation",
-                            "line": 156,
-                            "message": "Could not find property \"orientation\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 155,
-                            "message": "Could not find property \"fill\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "model",
-                            "line": 168,
-                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 31,
+                            "column": 29,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 167,
+                            "functionName": "bottom",
+                            "line": 45,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 59,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 60,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 28,
                             "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 170,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 171,
-                            "message": "Could not find property \"text\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 0,
-                            "functionName": "highlighted",
-                            "line": 172,
-                            "message": "Could not find property \"highlighted\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 173,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 185,
+                            "functionName": "right",
+                            "line": 61,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 31,
+                            "codegenResult": 0,
+                            "column": 21,
                             "durationMicroseconds": 0,
-                            "functionName": "wrapMode",
-                            "line": 200,
-                            "message": "Could not find property \"wrapMode\"."
+                            "functionName": "height",
+                            "line": 72,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 27,
+                            "column": 28,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 228,
+                            "functionName": "right",
+                            "line": 68,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 69,
                             "message": ""
                         }
                     ],
