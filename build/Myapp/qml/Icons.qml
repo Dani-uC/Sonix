@@ -3,7 +3,7 @@ import QtQuick.Effects
 
 Item{
     id:root
-    property alias source:controlIcon.source
+    property alias imageSource:controlIcon.source
     Image {
     id:controlIcon
     width: 64
@@ -11,6 +11,7 @@ Item{
     sourceSize.width: 64
     sourceSize.height: 64
     fillMode: Image.PreserveAspectFit
+    anchors.top: parent.top
 }
         
      MultiEffect{

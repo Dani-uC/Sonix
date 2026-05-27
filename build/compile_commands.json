@@ -49,9 +49,9 @@
 },
 {
   "directory": "/home/ESDi7/Qt/Sonix/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp",
-  "file": "/home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp",
-  "output": "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o"
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/ESDi7/Qt/Sonix/build/sonix_autogen/include -I/home/ESDi7/Qt/Sonix -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQml -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/mkspecs/linux-g++ -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQmlIntegration -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtNetwork -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtGui -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtQuick -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtOpenGL -isystem /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtMultimedia -std=gnu++17 -fPIC -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp",
+  "file": "/home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp",
+  "output": "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o"
 },
 {
   "directory": "/home/ESDi7/Qt/Sonix/build",

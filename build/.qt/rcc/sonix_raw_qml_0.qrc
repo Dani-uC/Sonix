@@ -1,7 +1,7 @@
 <RCC>
   <qresource prefix="/Myapp/">
     <file alias="qml/main.qml">/home/ESDi7/Qt/Sonix/qml/main.qml</file>
-    <file alias="qml/Icons.qml">/home/ESDi7/Qt/Sonix/qml/Icons.qml</file>
+    <file alias="qml/Icon.qml">/home/ESDi7/Qt/Sonix/qml/Icon.qml</file>
   </qresource>
 </RCC>
 

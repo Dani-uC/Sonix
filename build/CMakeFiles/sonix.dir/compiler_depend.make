@@ -1591,7 +1591,7 @@ CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o: .qt/rcc/qrc_sonix_
 CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o: .qt/rcc/qrc_sonix_raw_res_0.cpp \
   /usr/include/stdc-predef.h
 
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o: .rcc/qmlcache/sonix_qml/Icons_qml.cpp \
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o: .rcc/qmlcache/sonix_qml/Icon_qml.cpp \
   /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q17memory.h \
   /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q20bit.h \
   /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q20functional.h \
@@ -5263,6 +5263,8 @@ sonix_qmltyperegistrations.cpp:
 
 /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q23utility.h:
 
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp:
+
 .qt/rcc/qrc_sonix_raw_qml_0.cpp:
 
 /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake:
@@ -8526,8 +8528,6 @@ sonix_autogen/moc_predefs.h:
 /home/ESDi7/QtMain/6.11.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
 /home/ESDi7/QtMain/6.11.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargetsPrecheck.cmake:
-
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp:
 
 /home/ESDi7/QtMain/6.11.1/gcc_64/lib/cmake/Qt6Gui/Qt6DrmEglServerBufferPluginTargets-relwithdebinfo.cmake:
 

@@ -23,11 +23,15 @@ ApplicationWindow {
     color: '#021a27'
 
     menuBar: MenuBar {
+        height: 25
+        leftPadding: 0
+        rightPadding: 0
+        topPadding: 0
+        bottomPadding: 0
         background:Rectangle {
-            anchors.top: parent.top
-            color: '#021a27'
-            border.color:'#0f3458'
-            border.width: 1
+        color: '#0f3458'
+        border.color:'#021a27'
+        border.width: 1
        
         }
         //color: "#0f3458"
@@ -36,28 +40,43 @@ ApplicationWindow {
     }
 
     header: ToolBar {
-        background: Rectangle {
-            color: '#021a27' 
-            border.color: '#0f3458'
+        id: header
+        width: parent.width
+        height: 25
+        leftPadding: 0
+        rightPadding: 0
+        topPadding: 0
+        bottomPadding: 0
+        RowLayout {
+            anchors.fill: parent
+            spacing:10
+        Rectangle {
+            anchors.fill: parent
+            color: '#0f3458'
+            border.color:'#021a27'
             border.width: 1
+            //border.top:false
+
+            Item { Layout.fillWidth: true }
                  Text {
-                anchors.centerIn: parent
-                anchors.top: parent.top
+                anchors.centerIn:parent
                 text: "SONIX"
                 color: "#2DEFD2"
                 font.pointSize: 10
-                //font.bold: true
+                font.bold: true
             }
+            Item { Layout.fillWidth: true }
 
         }
-     
+        }
        // color: "#0f3458" 
         
     }
 
 
     Rectangle{
-            anchors.fill: parent
+        id: mainArea
+        anchors.fill: parent
            color: '#021a27'
 
 
@@ -77,61 +96,67 @@ ApplicationWindow {
 
             // Sidebar content goes here   
         }
+
+        
          Rectangle {
-            id:mainContent
+            id:middleArea
             color: '#021a27'
+            
             height: parent.height
             anchors.left: leftSidebar.right
             anchors.right: rightSidebar.left
             
-            
             ColumnLayout {
                 anchors.fill: parent
-                anchors.margins: 20
-                spacing: 20
+                anchors.margins:10
+                spacing:20
+
+                Rectangle {
+                    id:songCover
+                   // Layout.topMargin:mainArea.height - rightSidebar.height
+                    Layout.alignment: Qt.AlignHCenter
+                    color:'#0f3458'
+                    Layout.preferredHeight:500
+                    Layout.preferredWidth: 500
+                    radius:10
+
+                }
+              /*  Item {
+                    Layout.alignment:Qt.AlignTop
+                    anchors.topMargin:30
+                    Layout.fillWidth:true
+                    Layout.fillHeight:true
+                }*/
+                  RowLayout{
+                    Layout.alignment:Qt.AlignHCenter
+                    spacing:100
             
-
-                RowLayout {
-                    spacing: 20
-
-                    Rectangle {
-                    Layout.preferredHeight: 500
-                    Layout.fillWidth: true
-                    Layout.margins: 10
-                    color: '#0f3458'
-                    radius: 6
-
-                     Image {
-                    source: "qrc:/Myapp/resource/svg_icons/next.svg"
-                    width: 32
-                    height: 32
-                    fillMode: Image.PreserveAspectFit
-                    Layout.margins: 10
-                }
+                   // Item { Layout.fillWidth: true }
+                    Item{
+                        Icon{
+                            imageSource:"qrc:/Myapp/resource/svg_icons/previous.svg"
+                        }
                     }
-
+                     Item{
+                        Icon{
+                            imageSource:"qrc:/Myapp/resource/svg_icons/play.svg"
+                        }
+                    }
+                     Item{
+                        Icon{
+                            imageSource:"qrc:/Myapp/resource/svg_icons/next.svg"
+                        }
+                    }
+                     Item { Layout.fillHeight: true }
+                    }
+                  
                    
-                }
 
-                RowLayout {
-                    spacing: 20
-
-                        Icons {
-                    source:  "qrc:/Myapp/resource/svg_icons/next.svg"
-                    Layout.margins: 10
-                }
-                     Icons {
-                    source:  "qrc:/Myapp/resource/svg_icons/next.svg"
-                    Layout.margins: 10
-                }
-                     Icons {
-                    source:  "qrc:/Myapp/resource/svg_icons/next.svg"
-                    Layout.margins: 10
-                }
-               
-                }
-            }  
+            }
+           
         }
+              
+        
          Rectangle {
             id:rightSidebar
             anchors.right: parent.right
@@ -146,13 +171,14 @@ ApplicationWindow {
             anchors.bottomMargin: 20
     
         }
-
+    }
     
     
-        }
+        
     
 
     footer: ToolBar {
+        id: footer
         
         background: Rectangle {
             color: '#021a27' 
@@ -161,8 +187,8 @@ ApplicationWindow {
         }
         Text {
             padding: 10
-            text: "© 2024 SONIX. All rights reserved."
-            color: "#333333"
+            text: "© 2026 SONIX. All rights reserved."
+            color: '#67868e'
             font.pointSize: 10
         }
     }

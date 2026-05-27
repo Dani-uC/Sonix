@@ -121,22 +121,22 @@ Myapp/sonix.qmltypes: sonix_qmltyperegistrations.cpp
 .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats: .rcc/qmlcache/sonix_qml/main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats
 
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: /home/ESDi7/Qt/Sonix/qml/Icons.qml
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/qmake_Myapp.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/sonix_raw_qml_0.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/sonix_raw_res_0.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: Myapp/sonix.qmltypes
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: Myapp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/sonix_qml/Icons_qml.cpp, .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats"
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: /home/ESDi7/Qt/Sonix/qml/Icon.qml
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/qmake_Myapp.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/sonix_raw_qml_0.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/sonix_raw_res_0.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: Myapp/sonix.qmltypes
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: Myapp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/sonix_qml/Icon_qml.cpp, .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml
-	/home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Myapp/qml/Icons.qml -I /home/ESDi7/Qt/Sonix/build -I /home/ESDi7/QtMain/6.11.1/gcc_64/qml -i /home/ESDi7/Qt/Sonix/build/Myapp/qmldir --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc --dump-aot-stats "--module-id=Myapp(sonix)" -o /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp /home/ESDi7/Qt/Sonix/qml/Icons.qml
+	/home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Myapp/qml/Icon.qml -I /home/ESDi7/Qt/Sonix/build -I /home/ESDi7/QtMain/6.11.1/gcc_64/qml -i /home/ESDi7/Qt/Sonix/build/Myapp/qmldir --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc --dump-aot-stats "--module-id=Myapp(sonix)" -o /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp /home/ESDi7/Qt/Sonix/qml/Icon.qml
 
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats: .rcc/qmlcache/sonix_qml/Icons_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats: .rcc/qmlcache/sonix_qml/Icon_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats
 
 .qt/rcc/qrc_sonix_raw_qml_0.cpp: /home/ESDi7/Qt/Sonix/qml/main.qml
-.qt/rcc/qrc_sonix_raw_qml_0.cpp: /home/ESDi7/Qt/Sonix/qml/Icons.qml
+.qt/rcc/qrc_sonix_raw_qml_0.cpp: /home/ESDi7/Qt/Sonix/qml/Icon.qml
 .qt/rcc/qrc_sonix_raw_qml_0.cpp: .qt/rcc/sonix_raw_qml_0.qrc
 .qt/rcc/qrc_sonix_raw_qml_0.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource sonix_raw_qml_0"
@@ -280,19 +280,19 @@ CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/main_qml.cpp -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.s
 
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o: CMakeFiles/sonix.dir/flags.make
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o: .rcc/qmlcache/sonix_qml/Icons_qml.cpp
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o: CMakeFiles/sonix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o -MF CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o.d -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o: CMakeFiles/sonix.dir/flags.make
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o: .rcc/qmlcache/sonix_qml/Icon_qml.cpp
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o: CMakeFiles/sonix.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o -MF CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o.d -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o -c /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp
 
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp > CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.i
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp > CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.i
 
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.s
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp -o CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.s
 
 CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o: CMakeFiles/sonix.dir/flags.make
 CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o: .qt/rcc/qrc_sonix_raw_qml_0.cpp
@@ -332,7 +332,7 @@ sonix_OBJECTS = \
 "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_qmake_Myapp.cpp.o" \
 "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp.o" \
 "CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o" \
-"CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o" \
+"CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o" \
 "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o" \
 "CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o"
 
@@ -347,7 +347,7 @@ sonix: CMakeFiles/sonix.dir/sonix_qmltyperegistrations.cpp.o
 sonix: CMakeFiles/sonix.dir/build/.qt/rcc/qrc_qmake_Myapp.cpp.o
 sonix: CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qmlcache_loader.cpp.o
 sonix: CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/main_qml.cpp.o
-sonix: CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o
+sonix: CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o
 sonix: CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_qml_0.cpp.o
 sonix: CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o
 sonix: CMakeFiles/sonix.dir/build.make
@@ -375,8 +375,8 @@ CMakeFiles/sonix.dir/clean:
 CMakeFiles/sonix.dir/depend: .qt/rcc/qrc_qmake_Myapp.cpp
 CMakeFiles/sonix.dir/depend: .qt/rcc/qrc_sonix_raw_qml_0.cpp
 CMakeFiles/sonix.dir/depend: .qt/rcc/qrc_sonix_raw_res_0.cpp
-CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/Icons_qml.cpp
-CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats
+CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/Icon_qml.cpp
+CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats
 CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/main_qml.cpp
 CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats
 CMakeFiles/sonix.dir/depend: .rcc/qmlcache/sonix_qmlcache_loader.cpp

@@ -6,27 +6,19 @@
                 {
                     "entries": [
                         {
-                            "codegenResult": 0,
-                            "column": 26,
+                            "codegenResult": 2,
+                            "column": 16,
                             "durationMicroseconds": 0,
-                            "functionName": "top",
-                            "line": 27,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
+                            "functionName": "width",
                             "line": 44,
-                            "message": ""
+                            "message": "Could not find property \"width\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 30,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "top",
-                            "line": 45,
+                            "functionName": "fill",
+                            "line": 51,
                             "message": ""
                         },
                         {
@@ -34,7 +26,23 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 60,
+                            "line": 54,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 62,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 79,
                             "message": ""
                         },
                         {
@@ -42,7 +50,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 68,
+                            "line": 87,
                             "message": ""
                         },
                         {
@@ -50,87 +58,15 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 70,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 66,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 29,
-                            "durationMicroseconds": 0,
-                            "functionName": "bottom",
-                            "line": 67,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 21,
-                            "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 83,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "left",
-                            "line": 84,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "right",
-                            "line": 85,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
                             "line": 89,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 31,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "fillMode",
-                            "line": 108,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 20,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 139,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 21,
-                            "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 141,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "right",
-                            "line": 137,
+                            "functionName": "left",
+                            "line": 85,
                             "message": ""
                         },
                         {
@@ -138,7 +74,87 @@
                             "column": 29,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 138,
+                            "line": 86,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 105,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 106,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 107,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 117,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 131,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 164,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 166,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 162,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 163,
                             "message": ""
                         }
                     ],

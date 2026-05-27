@@ -9,6 +9,7 @@ c25b36c034f400a183e47422b1cf1827 .qt/sonix_qml.txt
 2be02af4c828fe73947f1b6cf2538878 .qt/sonix_res.txt
 494d375e2a38bdfd0c796e0cb69b9727 .rcc/qmlcache/all_aotstats.aotstats
 4d0c564825a7623574f5064787f81233 .rcc/qmlcache/module_sonix.aotstats
+d10b1adb40f2932ad70f575ca432b3a7 .rcc/qmlcache/sonix_qml/Icon_qml.cpp
 d016e59df78bd28580d3a91f7f3797f6 .rcc/qmlcache/sonix_qml/Icons_qml.cpp
 ee51db2f12bf084048a820d466b58cc8 .rcc/qmlcache/sonix_qml/main_qml.cpp
 5c6b329aabd742fe8d4d41b7750d0f54 .rcc/qmlcache/sonix_qmlcache_loader.cpp

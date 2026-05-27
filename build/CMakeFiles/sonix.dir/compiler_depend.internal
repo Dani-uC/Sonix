@@ -1595,8 +1595,8 @@ CMakeFiles/sonix.dir/build/.qt/rcc/qrc_sonix_raw_res_0.cpp.o
  /home/ESDi7/Qt/Sonix/build/.qt/rcc/qrc_sonix_raw_res_0.cpp
  /usr/include/stdc-predef.h
 
-CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp.o
- /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp
+CMakeFiles/sonix.dir/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp.o
+ /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q17memory.h
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q20bit.h
  /home/ESDi7/QtMain/6.11.1/gcc_64/include/QtCore/q20functional.h

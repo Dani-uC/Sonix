@@ -69,24 +69,24 @@ include CMakeFiles/module_sonix_aotstats_target.dir/progress.make
 CMakeFiles/module_sonix_aotstats_target: .rcc/qmlcache/module_sonix.aotstats
 
 .rcc/qmlcache/module_sonix.aotstats: .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats
-.rcc/qmlcache/module_sonix.aotstats: .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats
+.rcc/qmlcache/module_sonix.aotstats: .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats
 .rcc/qmlcache/module_sonix.aotstats: .rcc/qmlcache/module_sonix.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_sonix.aotstats"
 	/home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlaotstats aggregate /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/module_sonix.aotstatslist /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/module_sonix.aotstats
 
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: /home/ESDi7/Qt/Sonix/qml/Icons.qml
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/qmake_Myapp.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/sonix_raw_qml_0.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: .qt/rcc/sonix_raw_res_0.qrc
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: Myapp/sonix.qmltypes
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp: Myapp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/sonix_qml/Icons_qml.cpp, .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats"
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: /home/ESDi7/Qt/Sonix/qml/Icon.qml
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/qmake_Myapp.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/sonix_raw_qml_0.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: .qt/rcc/sonix_raw_res_0.qrc
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: Myapp/sonix.qmltypes
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp: Myapp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/sonix_qml/Icon_qml.cpp, .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml
-	/home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Myapp/qml/Icons.qml -I /home/ESDi7/Qt/Sonix/build -I /home/ESDi7/QtMain/6.11.1/gcc_64/qml -i /home/ESDi7/Qt/Sonix/build/Myapp/qmldir --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc --dump-aot-stats "--module-id=Myapp(sonix)" -o /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icons_qml.cpp /home/ESDi7/Qt/Sonix/qml/Icons.qml
+	/home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Myapp/qml/Icon.qml -I /home/ESDi7/Qt/Sonix/build -I /home/ESDi7/QtMain/6.11.1/gcc_64/qml -i /home/ESDi7/Qt/Sonix/build/Myapp/qmldir --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc --resource /home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc --dump-aot-stats "--module-id=Myapp(sonix)" -o /home/ESDi7/Qt/Sonix/build/.rcc/qmlcache/sonix_qml/Icon_qml.cpp /home/ESDi7/Qt/Sonix/qml/Icon.qml
 
-.rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats: .rcc/qmlcache/sonix_qml/Icons_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats
+.rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats: .rcc/qmlcache/sonix_qml/Icon_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats
 
 .rcc/qmlcache/sonix_qml/main_qml.cpp: /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlcachegen
 .rcc/qmlcache/sonix_qml/main_qml.cpp: /home/ESDi7/Qt/Sonix/qml/main.qml
@@ -103,8 +103,8 @@ CMakeFiles/module_sonix_aotstats_target: .rcc/qmlcache/module_sonix.aotstats
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats
 
 module_sonix_aotstats_target: .rcc/qmlcache/module_sonix.aotstats
-module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/Icons_qml.cpp
-module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/Icons_qml.cpp.aotstats
+module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/Icon_qml.cpp
+module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/Icon_qml.cpp.aotstats
 module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/main_qml.cpp
 module_sonix_aotstats_target: .rcc/qmlcache/sonix_qml/main_qml.cpp.aotstats
 module_sonix_aotstats_target: CMakeFiles/module_sonix_aotstats_target

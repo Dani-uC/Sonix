@@ -73,7 +73,7 @@ CMakeFiles/sonix_qmlimportscan: .qt/qml_imports/sonix_build.cmake
 .qt/qml_imports/sonix_build.cmake: .qt/rcc/sonix_raw_qml_0.qrc
 .qt/qml_imports/sonix_build.cmake: .qt/rcc/sonix_raw_res_0.qrc
 .qt/qml_imports/sonix_build.cmake: /home/ESDi7/Qt/Sonix/qml/main.qml
-.qt/qml_imports/sonix_build.cmake: /home/ESDi7/Qt/Sonix/qml/Icons.qml
+.qt/qml_imports/sonix_build.cmake: /home/ESDi7/Qt/Sonix/qml/Icon.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for sonix"
 	cd /home/ESDi7/Qt/Sonix && /home/ESDi7/QtMain/6.11.1/gcc_64/libexec/qmlimportscanner @/home/ESDi7/Qt/Sonix/build/.qt/qml_imports/sonix_build.rsp
 

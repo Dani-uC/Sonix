@@ -70,7 +70,7 @@ CMakeFiles/sonix_copy_qml: .qt/sonix_qml.txt
 
 .qt/sonix_qml.txt: /home/ESDi7/QtMain/6.11.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/sonix_qml.txt: /home/ESDi7/Qt/Sonix/qml/main.qml
-.qt/sonix_qml.txt: /home/ESDi7/Qt/Sonix/qml/Icons.qml
+.qt/sonix_qml.txt: /home/ESDi7/Qt/Sonix/qml/Icon.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ESDi7/Qt/Sonix/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying sonix qml sources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/ESDi7/Qt/Sonix/build/.qt/sonix_qml.cmake -P /home/ESDi7/QtMain/6.11.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

@@ -9,7 +9,7 @@ Core::Core(QObject *parent):QObject(parent) {
     player = new QMediaPlayer(this);
     audioOut=new QAudioOutput(this);
     play_list(songList,audioOut,player);
-    setVolume(audioOut,0.8f);
+    setVolume(audioOut,0.0f);
     
 
 }

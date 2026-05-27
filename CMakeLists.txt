@@ -15,7 +15,7 @@ qt_add_qml_module(sonix
         URI Myapp
         VERSION 1.0
         QML_FILES
-            qml/main.qml qml/Icons.qml
+            qml/main.qml qml/Icon.qml
 
         RESOURCES
 
