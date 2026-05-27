@@ -13,14 +13,16 @@ import QtQuick.Layouts
 ApplicationWindow {
     id: window
     visible: true
-    width: 1024
-    height: 768
-    minimumWidth: 1106
-    minimumHeight: 600
+    width: 1110
+    height: 880
+    minimumWidth: 1200
+    minimumHeight: 880
     title: "SONIX"
     font.family: "Arial"
     font.pointSize: 12 
     color: '#021a27'
+    onWidthChanged: {console.log("width:", width)}
+    onHeightChanged: {console.log("height:", height)}
 
     menuBar: MenuBar {
         height: 25
@@ -113,7 +115,7 @@ ApplicationWindow {
 
                 Rectangle {
                     id:songCover
-                   // Layout.topMargin:mainArea.height - rightSidebar.height
+                    Layout.topMargin:50
                     Layout.alignment: Qt.AlignHCenter
                     color:'#0f3458'
                     Layout.preferredHeight:500
