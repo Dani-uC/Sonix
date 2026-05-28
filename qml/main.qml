@@ -117,13 +117,25 @@ ApplicationWindow {
                     id:songCover
                     Layout.topMargin:50
                     Layout.alignment: Qt.AlignHCenter
-                    color:'#0f3458'
+                    color:Qt.rgba(0.06, 0.2, 0.35, 0.3)
                     Layout.preferredHeight:500
                     Layout.preferredWidth: 500
                     radius:10
+                    border.color:'#2defd2' 
+                    border.width:1
 
                 }
-              /*  Item {
+
+                Slider{
+                    Layout.alignment:Qt.AlignHCenter
+                    from:0
+                    to:100
+                    value:33
+                    width:700
+                    height:30
+                }
+                /*
+                Item {
                     Layout.alignment:Qt.AlignTop
                     anchors.topMargin:30
                     Layout.fillWidth:true

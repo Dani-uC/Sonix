@@ -19,5 +19,7 @@ Item{
         source: controlIcon
         colorization: 1.0
         colorizationColor: '#2DEFD2'
+        opacity: hovered ? 0.3 : 0.1
+         
     }
 }

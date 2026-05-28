@@ -30,6 +30,14 @@
                             "message": ""
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 2000,
+                            "functionName": "opacity",
+                            "line": 22,
+                            "message": "Cannot access value for name hovered"
+                        },
+                        {
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
