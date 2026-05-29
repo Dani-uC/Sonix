@@ -1,1 +1,0 @@
-/home/ESDi7/Qt/Sonix/build/sonix_autogen/include/../EWIEGA46WW/moc_core.cpp.json

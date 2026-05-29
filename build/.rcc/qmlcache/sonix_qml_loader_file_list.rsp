@@ -1,8 +1,0 @@
---resource
-/home/ESDi7/Qt/Sonix/build/.qt/rcc/qmake_Myapp.qrc
---resource
-/home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_qml_0.qrc
---resource
-/home/ESDi7/Qt/Sonix/build/.qt/rcc/sonix_raw_res_0.qrc
-/Myapp/qml/main.qml
-/Myapp/qml/Icon.qml

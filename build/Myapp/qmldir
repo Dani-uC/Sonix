@@ -1,6 +1,0 @@
-module Myapp
-typeinfo sonix.qmltypes
-prefer :/Myapp/
-Icon 1.0 qml/Icon.qml
-depends QtQuick
-

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/Myapp">/home/ESDi7/Qt/Sonix/build/Myapp</file>
-
-  </qresource>
-</RCC>
