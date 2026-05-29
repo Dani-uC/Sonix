@@ -142,27 +142,115 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 38,
+                            "codegenResult": 2,
+                            "column": 29,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 130,
-                            "message": ""
+                            "functionName": "lastTick",
+                            "line": 153,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "tickPosition",
+                            "line": 155,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTriggered",
+                            "line": 178,
+                            "message": "Cannot retrieve a non-object type by ID: seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 184,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 185,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 186,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 193,
+                            "message": "Cannot access value for name seekBar"
                         },
                         {
                             "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 194,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 195,
+                            "message": "Cannot load property radius from (component in /home/ESDi7/Qt/Sonix/qml/main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 202,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 204,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 208,
+                            "message": "Cannot access value for name seekBar"
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 145,
-                            "message": ""
+                            "line": 225,
+                            "message": "Cannot load property AlignVTop from QtObject."
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 178,
+                            "line": 257,
                             "message": ""
                         },
                         {
@@ -170,7 +258,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 180,
+                            "line": 259,
                             "message": ""
                         },
                         {
@@ -178,7 +266,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 176,
+                            "line": 255,
                             "message": ""
                         },
                         {
@@ -186,7 +274,7 @@
                             "column": 29,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 177,
+                            "line": 256,
                             "message": ""
                         }
                     ],

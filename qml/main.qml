@@ -124,16 +124,96 @@ ApplicationWindow {
                     border.color:'#2defd2' 
                     border.width:1
 
+                            
+
                 }
 
-                Slider{
-                    Layout.alignment:Qt.AlignHCenter
-                    from:0
-                    to:100
-                    value:33
-                    width:700
-                    height:30
-                }
+               RowLayout {
+        Layout.fillWidth: true
+
+        Text {
+            text: "1 : 55"
+            color: "#FFFFFF"
+            font.pixelSize: 12
+        }
+
+        Item { Layout.fillWidth: true }   // spacer
+
+        Text {
+            text: "1 : 20"
+            color: "#AAAAAA"
+            font.pixelSize: 12
+        }
+    }
+
+    // ── Seek slider ──────────────────────────────────────────
+    Slider {
+
+    property real playPosition: 0
+    property real lastTick: Date.now()
+
+    function tickPosition(maxDuration) {
+        var now     = Date.now()
+        var elapsed = (now - lastTick) / 1000
+        lastTick    = now
+
+        var drift = (Math.random() - 0.5)
+        playPosition += elapsed + drift
+        playPosition  = Math.max(0, Math.min(playPosition, maxDuration))
+
+        return playPosition
+    }
+
+
+        id: seekBar
+        Layout.fillWidth: true
+
+        from:  0
+        to:    100       // total duration in seconds  
+
+                Timer {
+            interval: 1000
+            running:  true
+            repeat:   true
+            onTriggered: seekBar.value = seekBar.tickPosition(seekBar.to)
+        }
+
+
+        // ── Groove (track) ───────────────────────────────────
+        background: Rectangle {
+            x: seekBar.leftPadding
+            y: seekBar.topPadding + seekBar.availableHeight / 2 - height / 2
+            width:  seekBar.availableWidth
+            height: 4
+            radius: 2
+            color: "#444444"   // unplayed portion
+
+            // Played portion — fills left of the handle
+            Rectangle {
+                width:  seekBar.visualPosition * parent.width
+                height: parent.height
+                radius: parent.radius
+                color: '#2DEFD2'// ← your accent color (Spotify green here)
+            }
+        }
+
+        // ── Handle (thumb) ───────────────────────────────────
+        handle: Rectangle {
+            x: seekBar.leftPadding + seekBar.visualPosition
+               * (seekBar.availableWidth - width)
+            y: seekBar.topPadding  + seekBar.availableHeight / 2 - height / 2
+            width:  16
+            height: 16
+            radius: 8             // circle
+            color:  seekBar.pressed ? "#FFFFFF" : "#2DEFD2"
+            border.color: "#FFFFFF"
+            border.width: 2
+        }
+    }
+
+
+
+
                 /*
                 Item {
                     Layout.alignment:Qt.AlignTop
@@ -142,10 +222,9 @@ ApplicationWindow {
                     Layout.fillHeight:true
                 }*/
                   RowLayout{
-                    Layout.alignment:Qt.AlignHCenter
+                    Layout.alignment:Qt.AlignHCenter |Qt.AlignVTop
                     spacing:100
             
-                   // Item { Layout.fillWidth: true }
                     Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/previous.svg"

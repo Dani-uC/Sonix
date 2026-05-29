@@ -10,23 +10,31 @@
                             "column": 15,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 13,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
-                            "durationMicroseconds": 0,
-                            "functionName": "source",
                             "line": 18,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 23,
+                            "column": 14,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 17,
+                            "functionName": "opacity",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 13,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
+                            "line": 32,
                             "message": ""
                         },
                         {
@@ -34,7 +42,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 27,
+                            "line": 38,
                             "message": ""
                         }
                     ],
