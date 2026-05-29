@@ -212,15 +212,6 @@ ApplicationWindow {
     }
 
 
-
-
-                /*
-                Item {
-                    Layout.alignment:Qt.AlignTop
-                    anchors.topMargin:30
-                    Layout.fillWidth:true
-                    Layout.fillHeight:true
-                }*/
                   RowLayout{
                     Layout.alignment:Qt.AlignHCenter |Qt.AlignVTop
                     spacing:100
