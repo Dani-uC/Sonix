@@ -15,34 +15,26 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 18,
-                            "durationMicroseconds": 0,
-                            "functionName": "top",
-                            "line": 14,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "source",
-                            "line": 19,
+                            "line": 18,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 18,
-                            "durationMicroseconds": 2000,
-                            "functionName": "opacity",
-                            "line": 22,
-                            "message": "Cannot access value for name hovered"
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 18,
+                            "line": 17,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 27,
                             "message": ""
                         }
                     ],

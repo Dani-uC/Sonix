@@ -11,7 +11,6 @@ Item{
     sourceSize.width: 64
     sourceSize.height: 64
     fillMode: Image.PreserveAspectFit
-    anchors.top: parent.top
 }
         
      MultiEffect{
@@ -19,7 +18,15 @@ Item{
         source: controlIcon
         colorization: 1.0
         colorizationColor: '#2DEFD2'
-        opacity: hovered ? 0.3 : 0.1
+        opacity:0.3
          
     }
-}
+    MouseArea{
+
+      id:hoverArea
+      anchors.fill:parent
+      hoverEnabled:true
+    }  
+
+
+  }

@@ -47,11 +47,11 @@ ApplicationWindow {
         height: 25
         leftPadding: 0
         rightPadding: 0
-        topPadding: 0
-        bottomPadding: 0
-        RowLayout {
-            anchors.fill: parent
-            spacing:10
+        topPadding: 0 
+        bottomPadding: 0 
+        RowLayout { 
+        anchors.fill: parent 
+        spacing:10
         Rectangle {
             anchors.fill: parent
             color: '#0f3458'
