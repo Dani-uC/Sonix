@@ -36,7 +36,7 @@ ApplicationWindow {
         border.width: 1
        
         }
-        //color: "#0f3458"
+        
 
 
     }
@@ -71,7 +71,7 @@ ApplicationWindow {
 
         }
         }
-       // color: "#0f3458" 
+       
         
     }
 
@@ -137,7 +137,7 @@ ApplicationWindow {
             font.pixelSize: 12
         }
 
-        Item { Layout.fillWidth: true }   // spacer
+        Item { Layout.fillWidth: true }   
 
         Text {
             text: "1 : 20"
@@ -146,7 +146,7 @@ ApplicationWindow {
         }
     }
 
-    // ── Seek slider ──────────────────────────────────────────
+    
     Slider {
 
     property real playPosition: 0
@@ -169,7 +169,7 @@ ApplicationWindow {
         Layout.fillWidth: true
 
         from:  0
-        to:    100       // total duration in seconds  
+        to:    100      
 
                 Timer {
             interval: 1000
@@ -186,25 +186,25 @@ ApplicationWindow {
             width:  seekBar.availableWidth
             height: 4
             radius: 2
-            color: "#444444"   // unplayed portion
+            color: "#444444" 
 
-            // Played portion — fills left of the handle
+        
             Rectangle {
                 width:  seekBar.visualPosition * parent.width
                 height: parent.height
                 radius: parent.radius
-                color: '#2DEFD2'// ← your accent color (Spotify green here)
+                color: '#2DEFD2'
             }
         }
 
-        // ── Handle (thumb) ───────────────────────────────────
+        
         handle: Rectangle {
             x: seekBar.leftPadding + seekBar.visualPosition
                * (seekBar.availableWidth - width)
             y: seekBar.topPadding  + seekBar.availableHeight / 2 - height / 2
             width:  16
             height: 16
-            radius: 8             // circle
+            radius: 8           
             color:  seekBar.pressed ? "#FFFFFF" : "#2DEFD2"
             border.color: "#FFFFFF"
             border.width: 2
