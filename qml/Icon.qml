@@ -8,6 +8,7 @@ Item{
     width:100
     property alias imageSource:controlIcon.source
     property alias mouseAction:mouseContainer
+     property bool isPlaying: false
 
     Image {
     id:controlIcon

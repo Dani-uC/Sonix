@@ -235,14 +235,14 @@ ApplicationWindow {
                         }
                     }
                      Item{
-                         property bool isPlaying: false
                         Icon{
                             imageSource:{
-                            if(!isPlaying)
-                                return "qrc:/Myapp/resource/svg_icons/pause.svg"
-                            else
-                            return "qrc:/Myapp/resource/svg_icons/play.svg"
-                            }
+                                if(isPlaying){
+                                    return "qrc:/Myapp/resource/svg_icons/pause.svg"
+                                }else
+                                    return"qrc:/Myapp/resource/svg_icons/play.svg"
+
+                            } 
                             mouseAction.onClicked:{
                             core.playPause();
                             isPlaying=!isPlaying;
