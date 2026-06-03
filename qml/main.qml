@@ -10,6 +10,8 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 
+import Qt5Compat.GraphicalEffects
+
 ApplicationWindow {
     id: window
     visible: true
@@ -117,14 +119,22 @@ ApplicationWindow {
                     id:songCover
                     Layout.topMargin:50
                     Layout.alignment: Qt.AlignHCenter
-                    color:Qt.rgba(0.06, 0.2, 0.35, 0.3)
+                    color:Qt.rgba(0.06, 0.2, 0.35, 1)
                     Layout.preferredHeight:500
                     Layout.preferredWidth: 500
                     radius:10
-                    border.color:'#2defd2' 
-                    border.width:1
+                    //border.color:'#2defd2' 
+                   // border.width:1
 
-                            
+    layer.enabled: true
+    layer.effect: DropShadow {
+        horizontalOffset: 15
+        verticalOffset: 15
+        radius: 15
+        samples: 31       // should be 2*radius + 1
+        spread: 0.1
+        color: '#80000000'
+    }
 
                 }
 
@@ -219,11 +229,15 @@ ApplicationWindow {
                     Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/previous.svg"
+                            
                         }
                     }
                      Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/play.svg"
+                            mouseAction.onClicked:{
+                                core.playPause();
+                            }
                         }
                     }
                      Item{

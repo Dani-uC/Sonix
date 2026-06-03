@@ -7,7 +7,8 @@ Item{
     height:100
     width:100
     property alias imageSource:controlIcon.source
-    
+    property alias mouseAction:mouseContainer
+
     Image {
     id:controlIcon
     anchors.centerIn:parent
@@ -28,8 +29,8 @@ Item{
 
     Behavior on opacity {
      NumberAnimation {
-            duration: 100         // Duration in milliseconds (300ms = 0.3 seconds)
-            easing.type: Easing.InOutQuad // Controls the fading acceleration curve
+            duration: 100         
+            easing.type: Easing.InOutQuad 
         }
     }
     

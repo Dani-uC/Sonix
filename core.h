@@ -16,19 +16,22 @@ class Core:public QObject {
     public:
     explicit Core(QObject *parent=nullptr);
     ~Core();
-    void playPause();
-    void next();
-    void prev();
+    Q_INVOKABLE void playPause();
+    Q_INVOKABLE void next();
+    Q_INVOKABLE void prev();
+    void loadTrack();
+    void setVolume(float value);
+
+    
 
     private:
     QMediaPlayer *player=nullptr;
     QAudioOutput *audioOut=nullptr;
     QString path;
+    int songIndex = 1;
 
 
 };
 
 
-void play_list(QList<Track*> songList, QAudioOutput *audioOutput, QMediaPlayer *player);
 
-void setVolume(QAudioOutput *audioOutput,float value);

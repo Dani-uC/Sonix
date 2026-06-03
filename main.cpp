@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QUrl>
 #include <QDirIterator>
+#include <QQmlContext>
 
 #include "core.h"
 using namespace Qt::StringLiterals;
@@ -12,13 +13,10 @@ int main(int argc, char *argv[]){
 
     Core core;
 
-    QDirIterator it(":",QDirIterator::Subdirectories);
-    while(it.hasNext()){
-        qDebug() << it.next();
-    }
+    engine.rootContext()->setContextProperty("core", &core);
 
     const QUrl url(QStringLiteral("qrc:/Myapp/qml/main.qml"));
-    qDebug() << engine.importPathList();
+    
     engine.load(url);
 
 
