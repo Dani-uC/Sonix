@@ -15,7 +15,7 @@ Core::Core(QObject *parent):QObject(parent) {
 Core::~Core(){}
 
 void Core::loadTrack(){
-    player->setSource(songList.at(songIndex)->sendSongPath());
+    player->setSource(songList.at(currIndex)->sendSongPath());
     player->setAudioOutput(audioOut);
 }
 
@@ -32,10 +32,19 @@ void Core::playPause(){
 }
 
 void Core::next(){
-    songIndex++;
-    player->setSource(songList.at(songIndex)->sendSongPath());
+    if(currIndex==songList.size())
+        currIndex=1;
+    else
+    currIndex++;
+    player->setSource(songList.at(currIndex)->sendSongPath());
+    player->play();
     
 }
 void Core::prev(){
+    if(currIndex==1)
+        currIndex=songList.size();
+    else
+    currIndex--;
+    player->setSource(songList.at(currIndex)->sendSongPath());
     player->play();
 }

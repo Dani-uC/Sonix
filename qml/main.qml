@@ -189,7 +189,6 @@ ApplicationWindow {
         }
 
 
-        // ── Groove (track) ───────────────────────────────────
         background: Rectangle {
             x: seekBar.leftPadding
             y: seekBar.topPadding + seekBar.availableHeight / 2 - height / 2
@@ -229,20 +228,33 @@ ApplicationWindow {
                     Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/previous.svg"
+                            mouseAction.onClicked:{
+                                core.prev();
+                            }
                             
                         }
                     }
                      Item{
+                         property bool isPlaying: false
                         Icon{
-                            imageSource:"qrc:/Myapp/resource/svg_icons/play.svg"
+                            imageSource:{
+                            if(!isPlaying)
+                                return "qrc:/Myapp/resource/svg_icons/pause.svg"
+                            else
+                            return "qrc:/Myapp/resource/svg_icons/play.svg"
+                            }
                             mouseAction.onClicked:{
-                                core.playPause();
+                            core.playPause();
+                            isPlaying=!isPlaying;
                             }
                         }
                     }
                      Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/next.svg"
+                                mouseAction.onClicked:{
+                                core.next();
+                            }
                         }
                     }
                      Item { Layout.fillHeight: true }

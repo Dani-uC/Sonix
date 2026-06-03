@@ -28,7 +28,7 @@ class Core:public QObject {
     QMediaPlayer *player=nullptr;
     QAudioOutput *audioOut=nullptr;
     QString path;
-    int songIndex = 1;
+    int currIndex=1;
 
 
 };
