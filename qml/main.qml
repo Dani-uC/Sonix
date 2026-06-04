@@ -12,6 +12,8 @@ import QtQuick.Layouts
 
 import Qt5Compat.GraphicalEffects
 
+import "Utils.js" as Utils
+
 ApplicationWindow {
     id: window
     visible: true
@@ -126,15 +128,15 @@ ApplicationWindow {
                     //border.color:'#2defd2' 
                    // border.width:1
 
-    layer.enabled: true
-    layer.effect: DropShadow {
-        horizontalOffset: 15
-        verticalOffset: 15
-        radius: 15
-        samples: 31       // should be 2*radius + 1
-        spread: 0.1
-        color: '#80000000'
-    }
+                    layer.enabled: true
+                    layer.effect: DropShadow {
+                    horizontalOffset: 15
+                    verticalOffset: 15
+                    radius: 15
+                    samples: 31       // should be 2*radius + 1
+                    spread: 0.1
+                    color: '#80000000'
+                    }
 
                 }
 
@@ -142,7 +144,7 @@ ApplicationWindow {
         Layout.fillWidth: true
 
         Text {
-            text: "1 : 55"
+            text:Utils.formatTime(core.position)
             color: "#FFFFFF"
             font.pixelSize: 12
         }
@@ -150,7 +152,7 @@ ApplicationWindow {
         Item { Layout.fillWidth: true }   
 
         Text {
-            text: "1 : 20"
+            text: Utils.formatTime(core.duration)
             color: "#AAAAAA"
             font.pixelSize: 12
         }
@@ -158,35 +160,15 @@ ApplicationWindow {
 
     
     Slider {
-
-    property real playPosition: 0
-    property real lastTick: Date.now()
-
-    function tickPosition(maxDuration) {
-        var now     = Date.now()
-        var elapsed = (now - lastTick) / 1000
-        lastTick    = now
-
-        var drift = (Math.random() - 0.5)
-        playPosition += elapsed + drift
-        playPosition  = Math.max(0, Math.min(playPosition, maxDuration))
-
-        return playPosition
-    }
-
-
         id: seekBar
         Layout.fillWidth: true
 
         from:  0
         to:    100      
+        value: core.position * 100 / core.duration
 
-                Timer {
-            interval: 1000
-            running:  true
-            repeat:   true
-            onTriggered: seekBar.value = seekBar.tickPosition(seekBar.to)
-        }
+
+
 
 
         background: Rectangle {
@@ -224,7 +206,16 @@ ApplicationWindow {
                   RowLayout{
                     Layout.alignment:Qt.AlignHCenter |Qt.AlignVTop
                     spacing:100
-            
+
+                    Item{
+                        Icon{
+                            imageSource:"qrc:/Myapp/resource/svg_icons/shuffle.svg"
+                            mouseAction.onClicked:{
+                                core.prev();
+                            }
+                            
+                        }
+                    }
                     Item{
                         Icon{
                             imageSource:"qrc:/Myapp/resource/svg_icons/previous.svg"
@@ -255,6 +246,15 @@ ApplicationWindow {
                                 mouseAction.onClicked:{
                                 core.next();
                             }
+                        }
+                    }
+                    Item{
+                        Icon{
+                            imageSource:"qrc:/Myapp/resource/svg_icons/search.svg"
+                            mouseAction.onClicked:{
+                                core.prev();
+                            }
+                            
                         }
                     }
                      Item { Layout.fillHeight: true }

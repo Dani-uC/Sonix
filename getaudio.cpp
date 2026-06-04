@@ -26,7 +26,6 @@ QList<Track*> getAudio() {
                 if (fs::is_regular_file(entry.path()) && isAudioFile(entry.path())) {
                     Track *song = new Track;
                     song->getSongPath(entry.path().string());
-                    song->setIndex(songList.size());
                     songList.append(song);
                 }
             }

@@ -4,12 +4,26 @@
 Core::Core(QObject *parent):QObject(parent) {
 
     QList<Track*> songList=getAudio();
-    //qDebug() << songList.at(1)->sendSongPath();
+    //qDebug() << songList.size();
 
     player = new QMediaPlayer(this);
     audioOut=new QAudioOutput(this);
     loadTrack();
-    setVolume(1.0f);   
+    setVolume(1.0f); 
+    
+    connect(player, &QMediaPlayer::durationChanged, this, [=](qint64 duration) {
+    songDuration = duration;
+    emit durationChanged(); 
+});
+    connect(player, &QMediaPlayer::positionChanged, this, [=](qint64 position) {
+    timePosition = position;
+    if(timePosition==songDuration)
+    next();
+    emit positionChanged(); 
+});
+
+
+
 
 }
 Core::~Core(){}
@@ -32,8 +46,8 @@ void Core::playPause(){
 }
 
 void Core::next(){
-    if(currIndex==songList.size())
-        currIndex=1;
+    if(currIndex==songList.size()-1)
+        currIndex=0;
     else
     currIndex++;
     player->setSource(songList.at(currIndex)->sendSongPath());
@@ -41,10 +55,13 @@ void Core::next(){
     
 }
 void Core::prev(){
-    if(currIndex==1)
-        currIndex=songList.size();
+    if(currIndex==0)
+        currIndex=songList.size()-1;
     else
     currIndex--;
+    //qDebug() <<"current list Index is:" << currIndex<<'\n';
     player->setSource(songList.at(currIndex)->sendSongPath());
     player->play();
 }
+
+

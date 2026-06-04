@@ -18,6 +18,7 @@ qt_add_qml_module(sonix
             qml/main.qml qml/Icon.qml
 
         RESOURCES
+        qml/Utils.js
 
         resource/svg_icons/next.svg
         resource/svg_icons/previous.svg

@@ -18,16 +18,9 @@ class Track{
     QString sendSongPath(){
         return path;
     }
-    void setIndex(int i){
-        index = i;
-    }
-    int getIndex(){
-        return index;
-    }
 
     private:
     QString path;
-    int index;
     
 };
 
@@ -36,5 +29,3 @@ extern QList<Track*> songList;
 QList<Track*> getAudio();
 
 bool isAudioFile(const fs::path& path);
-
-
