@@ -26,6 +26,7 @@ qt_add_qml_module(sonix
         resource/svg_icons/pause.svg
         resource/svg_icons/search.svg
         resource/svg_icons/shuffle.svg
+        resource/svg_icons/repeat.svg
 
 
         

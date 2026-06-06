@@ -250,7 +250,7 @@ ApplicationWindow {
                     }
                     Item{
                         Icon{
-                            imageSource:"qrc:/Myapp/resource/svg_icons/search.svg"
+                            imageSource:"qrc:/Myapp/resource/svg_icons/repeat.svg"
                             mouseAction.onClicked:{
                                 core.prev();
                             }
